@@ -1,8 +1,11 @@
 node_modules
 .DS_Store
 npm-debug.log
-dist
 docs/.yalc/
 docs/yalc.lock
 stats.json
 report.html
+dist/*
+!dist/*.css
+!dist/*.js
+!dist/*.map

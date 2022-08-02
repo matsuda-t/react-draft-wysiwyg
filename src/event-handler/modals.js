@@ -20,7 +20,7 @@ export default class ModalHandler {
     if (document) {
       document.addEventListener('click', () => { // eslint-disable-line no-undef
         if (!this.editorFlag) {
-          this.closeAllModals();
+          // this.closeAllModals();
           if (this.suggestionCallback) {
             this.suggestionCallback();
           }
